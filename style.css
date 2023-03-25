@@ -1,0 +1,51 @@
+*{
+    padding:0;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height: 100vh;
+    display:grid;
+    place-items:center;
+    background-image: url(http://content.khou.com/photo/2018/01/02/ThinkstockPhotos-868098786_1514925264801_12154981_ver1.0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#convert {
+    background-color: #3086ab;
+  }
+  #convert:hover {
+    background-color: #0a124e;
+  }
+  h1 {
+    font-family: sans-serif;
+    color: rgb(40, 73, 156);
+  }
+  input {
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 2em;
+    color: #3e44b6;
+    font-family: cursive, sans-serif;
+  }
+  ::-webkit-input-placeholder {
+     color: #ccc;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+     color: #ccc;  
+  }
+  ::-moz-placeholder {  /* Firefox 19+ */
+     color: #ccc;  
+  }
+  :-ms-input-placeholder {  
+     color: #ccc;  
+  }
+  button {
+    padding: 10px;
+    font-size: 1.2em;
+    color: #545454;
+  }
